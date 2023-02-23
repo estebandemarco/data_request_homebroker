@@ -48,7 +48,7 @@ wb = xw.Book('C:\excelsheet.xlsx')
 #Variable to introduce excel sheet
 sht = wb.sheets['Hoja1']
 
-#Loop for continuos update
+#Loop for continuous update
 while True:
     try:
         dato = pd.concat(get_intraday_history_for_tickers(tickers))
