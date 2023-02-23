@@ -12,10 +12,10 @@ import pandas as pd
 
 #User and broker validation
 
-broker = "203"
-dni = "31605297"
-user = "estebandemarco"
-password = "Esteban23d"
+broker = "Broker Number"
+dni = "XXXX"
+user = "XXXXXX"
+password = "XXXXX"
 
 
 # API variables
