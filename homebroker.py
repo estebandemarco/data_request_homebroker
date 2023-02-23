@@ -43,7 +43,7 @@ def get_intraday_history_for_tickers(tickers):
     return resultado
 
 #Variable to introduce spreadsheet location
-wb = xw.Book('D:\Downloads\inversiones.xlsx')
+wb = xw.Book('C:\excelsheet.xlsx')
 
 #Variable to introduce excel sheet
 sht = wb.sheets['Hoja1']
