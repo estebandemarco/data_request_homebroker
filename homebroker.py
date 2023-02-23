@@ -27,7 +27,7 @@ hb.online.connect()
 
 #List of stocks tickers
 
-tickers=["BMA","CEPU","CRES","GLOB","GOOGL","IRSA","MELI","MIRG","MSFT","SUPV","TECO2","TGNO4", "VIST","XLF" ]
+tickers=["List of tickers eg BMA GGAL" ]
 
 def get_intraday_history(ticker):
     #Get the intraday history for the given stock
