@@ -59,19 +59,8 @@ while True:
     except KeyboardInterrupt:
         print("Keyboard interrupt received. Exiting...")
         break
-
-
-
-
-
-
-
-
-
-
-
-
-
+    except ConnectionError():
+        print("Conection error")
 
 
 
